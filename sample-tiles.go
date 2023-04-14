@@ -2,7 +2,7 @@ package osmsampletiles
 
 import "embed"
 
-//go:embed tiles
+//go:embed map/tiles
 var tiles embed.FS
 
 // SampleOSMTiles returns an embeddded file system with Open Street Map tiles containting sample data. The
